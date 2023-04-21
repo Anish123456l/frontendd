@@ -8,6 +8,11 @@ import { AboutComponent } from './about/about.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
+import { FacultyMainComponent } from './faculty/faculty-main/faculty-main.component';
+import { FacultyHeaderComponent } from './faculty/faculty-header/faculty-header.component';
+import { FacultyFooterComponent } from './faculty/faculty-footer/faculty-footer.component';
+import { ResponseFormComponent } from './faculty/response-form/response-form.component';
+import { FacultyDashboardComponent } from './faculty/faculty-dashboard/faculty-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     DashboardComponent,
     LoginComponent,
-    ContactComponent
+    ContactComponent,
+    FacultyMainComponent,
+    FacultyHeaderComponent,
+    FacultyFooterComponent,
+    ResponseFormComponent,
+    FacultyDashboardComponent
   ],
   imports: [
     BrowserModule,
